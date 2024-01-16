@@ -98,21 +98,24 @@ main {
     width: 98vw;
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 2.5rem;
+    gap: 2rem 1rem;
     padding: 2rem;
     padding-right: 4rem;
 }
 
 .book {
     background-color: #e2e2e22a;
-    padding: 2rem;
+    padding: 1rem;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     width: 100%;
 }
+.book .title {
+    font-size: 1rem;
+}
 .book .cover {
-    height: 150px;
-    width: 250px;
+    height: 200px;
+    width: 300px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -170,13 +173,14 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
     .book .info {
         margin-bottom: 1rem;
     }
     .book .cover {
-        height: 100px;
-        width: 200px;
+        height: 200px;
+        width: 300px;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -238,8 +242,8 @@ main {
         margin-bottom: 1rem;
     }
     .book .cover {
-        height: 100px;
-        width: 200px;
+        height: 200px;
+        width: 300px;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -331,8 +335,8 @@ a {
         margin-bottom: 1rem;
     }
     .book .cover {
-        height: 100px;
-        width: 200px;
+        height: 200px;
+        width: 300px;
         overflow: hidden;
         display: flex;
         align-items: center;
