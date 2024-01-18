@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -133,6 +135,16 @@ main {
     height: 100%;
     width: 100%;
 }
+@media screen and (max-width:1000px) {
+    main {
+        width: 80vw;
+        background-size: 650px 150px;
+        background-position: center;
+        background: url(/images/banner2.png) cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
 @media screen and (max-width:850px) {
     
     header {
@@ -197,6 +209,16 @@ main {
     }
 
 }
+@media screen and (max-width:760px) {
+    main {
+        width: 80vw;
+        background-size: 650px 150px;
+        background-position: center;
+        background: url(/images/banner3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
 @media screen and (max-width:650px) {
     
     header {
@@ -253,7 +275,9 @@ main {
         width: 80vw;
         background-size: 650px 150px;
         background-position: center;
-
+        background: url(/images/banner2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     main h2 {
         font-size: 1.2rem;
@@ -287,8 +311,23 @@ footer a {
 footer h2 {
     margin-bottom: 1rem;
 }
+
 a {
     text-decoration: none;
+}
+@media screen and (max-width:380px) {
+    main {
+        width: 90vw;
+        background-size: cover;
+        background-position: center;
+        background: url(images/banner4.png);
+        height: 20vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    main h2 {
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width:360px) {
     
@@ -342,14 +381,13 @@ a {
         align-items: center;
         justify-content: center;
     }
-    main {
-        width: 90vw;
-        background-size: 650px 150px;
-        background-position: center;
+    
 
-    }
-    main h2 {
-        font-size: 1.2rem;
-    }
+}
 
+.hide {
+    display: none;
+}
+.show {
+    display: grid;
 }
