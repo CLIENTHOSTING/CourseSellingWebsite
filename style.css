@@ -475,3 +475,11 @@ object,iframe {
 .system p {
     margin-top: 1rem;
 }
+iframe {
+    width: 100vw;
+    height: 155vh;
+    display: inline-block;
+}
+.loginpage {
+    background: #ffffff;
+}
