@@ -2,6 +2,7 @@ const input = document.querySelector('.main-input')
 const searchBtn = document.querySelector('.search-button')
 const bookList = document.querySelectorAll('.book')
 
+
 function Search() {
     searchBtn.addEventListener('click',(event) => {
         let inputValue = input.value
@@ -30,3 +31,12 @@ function Search() {
 }
 
 Search()
+
+
+function openBook () {
+    button.addEventListener('click',function(event){
+        console.log(codeContainer)
+    })
+}
+
+openBook()
