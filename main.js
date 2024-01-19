@@ -32,11 +32,6 @@ function Search() {
 
 Search()
 
-
-function openBook () {
-    button.addEventListener('click',function(event){
-        console.log(codeContainer)
-    })
-}
-
-openBook()
+bookList.forEach(book => {
+    book.children[0].children[2].attributes[0].value = "account-number.html"
+})
