@@ -138,11 +138,6 @@ main {
 @media screen and (max-width:1000px) {
     main {
         width: 80vw;
-        background-size: 650px 150px;
-        background-position: center;
-        background: url(/images/banner2.png) cover;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 }
 @media screen and (max-width:850px) {
@@ -200,8 +195,7 @@ main {
     }
     main {
         width: 80vw;
-        background-size: 650px 150px;
-        background-position: center;
+
 
     }
     main h2 {
@@ -212,11 +206,6 @@ main {
 @media screen and (max-width:760px) {
     main {
         width: 80vw;
-        background-size: 650px 150px;
-        background-position: center;
-        background: url(/images/banner3.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 }
 @media screen and (max-width:650px) {
@@ -273,11 +262,6 @@ main {
     }
     main {
         width: 80vw;
-        background-size: 650px 150px;
-        background-position: center;
-        background: url(/images/banner2.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     main h2 {
         font-size: 1.2rem;
@@ -319,8 +303,6 @@ a {
     main {
         width: 90vw;
         background-size: cover;
-        background-position: center;
-        background: url(images/banner4.png);
         height: 20vh;
         background-size: cover;
         background-repeat: no-repeat;
@@ -518,4 +500,62 @@ iframe {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+}
+@media screen and (max-width:950px){
+    main {
+        background: url('images/banner-mdd.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    main h2 {
+        width: 70%;
+    }
+}
+@media screen and (max-width:750px){
+    main {
+        background: url('images/banner-mdd.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    main h2 {
+        width: 70%;
+    }
+}
+@media screen and (max-width:650px){
+    main {
+        background: url('images/banner-md.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    main h2 {
+        width: 70%;
+    }
+}
+@media screen and (max-width:500px){
+    main {
+        background: url('images/banner-m.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    main h2 {
+        width: 70%;
+    }
+}
+@media screen and (max-width:416px){
+    main {
+        background: url('images/banner-m.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    main h2 {
+        font-size: .9rem;
+        width: 50%;
+    }
 }
