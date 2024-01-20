@@ -85,7 +85,7 @@ input::placeholder {
 }
 main {
     text-align: center;
-    width: 65vw;
+    width: 75vw;
     background: url(/images/banner.jpg) no-repeat  ;
     background-size: cover;
     margin: auto;
@@ -519,7 +519,7 @@ iframe {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-
+        width: 100vw;
     }
     main h2 {
         width: 70%;
@@ -531,6 +531,7 @@ iframe {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        width: 100vw;
 
     }
     main h2 {
@@ -543,6 +544,8 @@ iframe {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        width: 100vw;
+
     }
     main h2 {
         width: 70%;
@@ -553,6 +556,7 @@ iframe {
         background: url('images/banner-m.png');
         background-repeat: no-repeat;
         background-position: center;
+        width: 100vw;
     }
     main h2 {
         font-size: .9rem;
